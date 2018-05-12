@@ -155,9 +155,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 24.2
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 70
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -181,6 +181,67 @@ Transform:
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &884997742
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 884997744}
+  - component: {fileID: 884997743}
+  m_Layer: 0
+  m_Name: Room Templates
+  m_TagString: Rooms
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &884997743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 884997742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b628d4597169045958db52ffade375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entryRoom: {fileID: 1837169340428634, guid: 6a233dd8a5f3b3a459a0f5b27323685a, type: 2}
+  topRooms:
+  - {fileID: 1035442356510020, guid: 69714642be9aa444cbb826d77e729d1f, type: 2}
+  - {fileID: 1927328992027050, guid: 90c054c1585e00f4a94967d268f3ccf7, type: 2}
+  - {fileID: 1542385519038182, guid: c0d530b17a669a74cbdefd01f39c0c83, type: 2}
+  - {fileID: 1002500964374944, guid: 83b4fd36f96521d4a819cadabb102b2c, type: 2}
+  bottomRooms:
+  - {fileID: 1497117597563850, guid: def09a3874b6edb4f8fb9cdfc8f45ea1, type: 2}
+  - {fileID: 1324311187383550, guid: 4defb538f6e97864a980d2cc3bd36eae, type: 2}
+  - {fileID: 1312696554527638, guid: 73dfc6e6531ac2940b48ef4f32a763c9, type: 2}
+  - {fileID: 1927328992027050, guid: 90c054c1585e00f4a94967d268f3ccf7, type: 2}
+  rightRooms:
+  - {fileID: 1324311187383550, guid: 4defb538f6e97864a980d2cc3bd36eae, type: 2}
+  - {fileID: 1028588095949678, guid: b0d4c9b80c8b77a4da738cefe514f1a6, type: 2}
+  - {fileID: 1277351997177940, guid: 48c3f3c95a3168d4dbe60793e1001903, type: 2}
+  - {fileID: 1542385519038182, guid: c0d530b17a669a74cbdefd01f39c0c83, type: 2}
+  leftRooms:
+  - {fileID: 1587034239309880, guid: 6bcd6cf03d27c8c49939206ce946d3e1, type: 2}
+  - {fileID: 1312696554527638, guid: 73dfc6e6531ac2940b48ef4f32a763c9, type: 2}
+  - {fileID: 1028588095949678, guid: b0d4c9b80c8b77a4da738cefe514f1a6, type: 2}
+  - {fileID: 1002500964374944, guid: 83b4fd36f96521d4a819cadabb102b2c, type: 2}
+--- !u!4 &884997744
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 884997742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
