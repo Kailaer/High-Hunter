@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\AddRoom.cs" />
     <Compile Include="Assets\Destroyer.cs" />
+    <Compile Include="Assets\Player2DController.cs" />
     <Compile Include="Assets\RoomSpawner.cs" />
     <Compile Include="Assets\RoomTemplates.cs" />
     <Reference Include="UnityEditor.StandardEvents">
